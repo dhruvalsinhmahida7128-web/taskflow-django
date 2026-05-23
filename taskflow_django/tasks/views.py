@@ -4,6 +4,7 @@ from django.contrib.auth.decorators import login_required, user_passes_test
 from django.contrib import messages
 from .forms import RegisterForm, TaskForm, ProjectForm
 from .models import Task, Project, CustomUser
+from django.views.decorators.csrf import ensure_csrf_cookie
 
 def index(request):
     return render(request, 'tasks/index.html')
