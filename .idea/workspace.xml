@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5d10a2a-5248-4575-8a84-96aa196dbac0" name="Changes" comment="for windows">
+    <list default="true" id="f5d10a2a-5248-4575-8a84-96aa196dbac0" name="Changes" comment="for deployment test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779525852898</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="for deployment test">
+      <option name="closed" value="true" />
+      <created>1779526057717</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1779526057717</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -113,6 +121,7 @@
     <MESSAGE value="update for render deployment" />
     <MESSAGE value="python runtime for render" />
     <MESSAGE value="for windows" />
-    <option name="LAST_COMMIT_MESSAGE" value="for windows" />
+    <MESSAGE value="for deployment test" />
+    <option name="LAST_COMMIT_MESSAGE" value="for deployment test" />
   </component>
 </project>
