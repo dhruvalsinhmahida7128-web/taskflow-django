@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: taskflow-django
+    runtime: python
+    plan: free
+    buildCommand: |
+      pip install -r requirements.txt
+      python manage.py collectstatic --noinput
+      python manage.py migrate
+    startCommand: gunicorn taskflow_project.wsgi:application
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: false
+      - key: PYTHON_VERSION
+        value: 3.10.12
