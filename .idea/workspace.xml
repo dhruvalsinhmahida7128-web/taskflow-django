@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5d10a2a-5248-4575-8a84-96aa196dbac0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/taskflow_django.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskflow_django/tasks/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskflow_django/tasks/middleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/project_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/project_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/project_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/task_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/task_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskflow_django/tasks/urls.py" afterDir="false" />
+    <list default="true" id="f5d10a2a-5248-4575-8a84-96aa196dbac0" name="Changes" comment="for windows">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +28,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHELLCHECK.PATH": "C:\\Users\\Admin\\AppData\\Roaming\\JetBrains\\PyCharmCE2025.1\\plugins\\Shell Script\\shellcheck.exe",
     "git-widget-placeholder": "master"
   }
 }]]></component>
@@ -63,6 +47,72 @@
       <option name="presentableId" value="Default" />
       <updated>1779360127415</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1779481750252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779481750252</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Unversioned files">
+      <option name="closed" value="true" />
+      <created>1779481804417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779481804417</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit for render deployment">
+      <option name="closed" value="true" />
+      <created>1779525219025</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779525219025</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update for render deployment">
+      <option name="closed" value="true" />
+      <created>1779525729361</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779525729361</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update for render deployment">
+      <option name="closed" value="true" />
+      <created>1779525749828</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779525749828</updated>
+    </task>
+    <task id="LOCAL-00006" summary="python runtime for render">
+      <option name="closed" value="true" />
+      <created>1779525796222</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1779525796222</updated>
+    </task>
+    <task id="LOCAL-00007" summary="for windows">
+      <option name="closed" value="true" />
+      <created>1779525852898</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1779525852898</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated" />
+    <MESSAGE value="Unversioned files" />
+    <MESSAGE value="commit for render deployment" />
+    <MESSAGE value="update for render deployment" />
+    <MESSAGE value="python runtime for render" />
+    <MESSAGE value="for windows" />
+    <option name="LAST_COMMIT_MESSAGE" value="for windows" />
   </component>
 </project>
