@@ -6,6 +6,44 @@
   <component name="ChangeListManager">
     <list default="true" id="f5d10a2a-5248-4575-8a84-96aa196dbac0" name="Changes" comment="for deployment test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/render.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/runtime.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/static/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/taskflow_project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/taskflow_project/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/taskflow_project/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/taskflow_project/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/taskflow_project/taskflow_project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/taskflow_project/taskflow_project/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/taskflow_project/taskflow_project/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/taskflow_project/taskflow_project/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/taskflow_project/taskflow_project/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/taskflow_project/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/taskflow_project/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/middleware.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/project_confirm_delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/project_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/project_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/task_confirm_delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/templates/tasks/task_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskflow_django/tasks/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779526057717</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="for deployment test">
+      <option name="closed" value="true" />
+      <created>1779527050308</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1779527050308</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
