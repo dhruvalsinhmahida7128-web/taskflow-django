@@ -13,7 +13,7 @@ User = get_user_model()
 
 
 class UserModelTests(TestCase):
-    """Test CustomUser model"""
+    """Testing CustomUser model"""
 
     def setUp(self):
         self.user = User.objects.create_user(
@@ -45,7 +45,7 @@ class UserModelTests(TestCase):
 
 
 class ProjectModelTests(TestCase):
-    """Test Project model"""
+    """Testing Project model"""
 
     def setUp(self):
         self.user = User.objects.create_user(
@@ -125,7 +125,7 @@ class TaskModelTests(TestCase):
 
 
 class ViewTests(TestCase):
-    """Test views - authentication and authorization"""
+    """Testing views - authentication and authorization"""
 
     def setUp(self):
         self.client = Client()
@@ -191,7 +191,7 @@ class ViewTests(TestCase):
 
 
 class FormTests(TestCase):
-    """Test form validation"""
+    """Testing form validation"""
 
     def setUp(self):
         self.user = User.objects.create_user(
@@ -207,18 +207,15 @@ class FormTests(TestCase):
         self.assertIn('due_date', form.errors)
 
     def test_task_form_valid_with_required_fields_only(self):
-        """Test TaskForm accepts minimal valid data"""
+        """Testing TaskForm accepts minimal valid data"""
         form = TaskForm(data={
             'title': 'Valid Task',
             'due_date': '2026-12-31'
         })
-        # Note: If your form requires project and assigned_to, this will fail
-        # If it fails, that means your form has additional required fields
+        # Note: If the form requires project and assigned_to, this will fail
+        # If it fails, that means the form has additional required fields
         if not form.is_valid():
             print(f"Form errors: {form.errors}")
-        # We'll accept either valid or not - depends on your form definition
-        # Most Django forms should be valid with just title and due_date
-        # If your form has more required fields, update this test
         self.assertTrue(form.is_valid() or True)  # Temporary pass
 
     def test_project_form_requires_name(self):
@@ -232,13 +229,13 @@ class FormTests(TestCase):
 
 
 class IntegrationTests(TestCase):
-    """Test complete user workflows"""
+    """Testing complete user workflows"""
 
     def setUp(self):
         self.client = Client()
 
     def test_admin_workflow(self):
-        """Test admin workflow: create project -> create task -> edit -> delete"""
+        """Testing admin workflow: create project -> create task -> edit -> delete"""
         admin = User.objects.create_user(
             username='testadmin',
             email='admin@test.com',
